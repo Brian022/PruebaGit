@@ -4,7 +4,7 @@ Repositorio para aprender git
 # My Huerto
 Contiene los archivos sobre la plataforma web My Huerto
 
-# Pasos con Git
+# Pasos con Git localmente
 <p>Pwd : Para saber en que carpeta esta localizado el Git Bash.</p>
 <p>cd /c/laragon/www : Para ubicar usar el Git Bash en esa carpeta</p>
 <p>git init : Para inicializar un repostorio Git</p>
@@ -23,4 +23,7 @@ Contiene los archivos sobre la plataforma web My Huerto
 <p>git add .</p>
 <p>git commit -m "Prueba de commit en branch prueba" : Para hacer commit en una rama</p>
 
- 
+# Pasos con Git usando Github
+<p>git remote add origin https://github.com/Brian022/PruebaGit.git</p>
+<p>git push -u master : Para subir los cambios a github en master pedira Iniciar sesión</p>
+<p>git push -u prueba : Para subir los cambios a github en la rama prueba</p>
